@@ -3,6 +3,7 @@
 
 # Question 1 (Naked Twins)
 Q: How do we use constraint propagation to solve the naked twins problem?  
+<<<<<<< HEAD
 A: We use naked twins strategy to eliminate possibilities rather than allocating value directly. After finding naked 
 twins we know that possible values will be in either of the box so we can safely discard those possible values for their 
 peers which might allocate a value to peer which will help us decide which values goes where in the pair. However, 
@@ -42,3 +43,13 @@ To visualize your solution, please only assign values to the values_dict using t
 ### Data
 
 The data consists of a text file of diagonal sudokus for you to solve.
+
+### Submission
+Before submitting your solution to a reviewer, you are required to submit your project to Udacity's Project Assistant, which will provide some initial feedback.  
+
+The setup is simple.  If you have not installed the client tool already, then you may do so with the command `pip install udacity-pa`.  
+
+To submit your code to the project assistant, run `udacity submit` from within the top-level directory of this project.  You will be prompted for a username and password.  If you login using google or facebook, visit [this link](https://project-assistant.udacity.com/auth_tokens/jwt_login for alternate login instructions.
+
+This process will create a zipfile in your top-level directory named sudoku-<id>.zip.  This is the file that you should submit to the Udacity reviews system.
+
